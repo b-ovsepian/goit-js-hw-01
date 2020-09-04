@@ -1,6 +1,5 @@
 let country = prompt();
-let normalCountry = country.toLowerCase();
-
+let normalCountry = (country || "").toLowerCase();
 switch (normalCountry) {
   case "китай":
     alert("Доставка в Китай будет стоить 100 кредитов");
